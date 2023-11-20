@@ -1,0 +1,76 @@
+/* Reset default margin, padding, and prevent scrolling on the body and html elements */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden; /* Prevent any default scrolling */
+}
+
+/* Styling for the main home section */
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Set the height to fill the viewport */
+  width: 100vw; /* Set the width to fill the viewport */
+  background: linear-gradient(to top, #69b1ff, #002c8c);
+}
+
+/* Styling for the search bar */
+.search-bar {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  width: 500px;
+}
+
+/* Styling for the search input field */
+.search-input {
+  border: none;
+  box-shadow: none;
+  outline: none;
+  border-radius: 10px;
+  font-size: 25px;
+  padding: 10px;
+  width: 100%;
+}
+
+/* Custom style for the clear button in the search input */
+.ant-input-clear-icon.ant-input-search-clear-icon {
+  color: #999; /* Change the color of the clear button (optional) */
+  font-size: 24px; /* Increase the font size of the clear button */
+  cursor: pointer;
+}
+
+/* Styling for certificate information */
+.cert-info {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  text-align: left;
+  margin-top: -20px;
+}
+
+/* Styling for the heading in the certificate information */
+.cert-info h3 {
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+/* Styling for paragraphs in the certificate information */
+.cert-info p {
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+/* Styling for buttons within the certificate information */
+.cert-info button {
+  margin-left: 10px;
+}

@@ -1,0 +1,68 @@
+/* Login.css */
+
+/* Styling for the login container */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(
+    to top,
+    #69b1ff,
+    #002c8c
+  ); /* Example background gradient */
+  color: #fff;
+  font-family: "Arial", sans-serif;
+  text-align: center;
+}
+
+/* Styling for the login form */
+.login-form {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 48px; /* Increase padding for more spacing */
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px; /* Adjust the maximum width for responsiveness */
+  width: 100%; /* Make the form responsive to the viewport */
+}
+
+/* Styling for the heading in the login form */
+.login-form h2 {
+  font-size: 28px; /* Increase the font size for emphasis */
+  text-transform: uppercase; /* Uppercase the text for a more brand-like appearance */
+  letter-spacing: 2px; /* Add letter spacing for style */
+  font-weight: bold; /* Make the text bold */
+  margin-bottom: 32px; /* Increase margin for spacing */
+  background: linear-gradient(#69b1ff, #002c8c);
+  -webkit-background-clip: text; /* Apply the gradient to the text */
+  background-clip: text; /* Apply the gradient to the text */
+  color: transparent; /* Make the text color transparent */
+}
+
+/* Styling for input icons (if present) */
+.input-icon {
+  font-size: 16px; /* Increase the icon size */
+  color: rgba(0, 0, 0, 0.5); /* Adjust icon color for visibility */
+}
+
+/* Styling for the login button */
+.login-button {
+  width: 100%;
+  font-size: 14px; /* Increase font size for better readability */
+  background: #1890ff; /* Use the theme color for the button background */
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+
+  &:hover {
+    background: #0040c8; /* Darker color on hover for visual feedback */
+  }
+}
+
+/* Styling for paragraphs within the form */
+p {
+  font-size: 16px; /* Set the font size */
+  margin-top: 15px; /* Add margin for separation */
+  color: #444; /* Define a specific text color */
+}

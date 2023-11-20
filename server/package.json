@@ -1,0 +1,37 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./src/tests/*Tests.js",
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "connect-mongo": "^5.0.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.3.1",
+    "escape-html": "^1.0.3",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.3",
+    "express-session": "^1.17.3",
+    "fs": "^0.0.1-security",
+    "helmet": "^7.0.0",
+    "mongo-sanitize": "^1.1.0",
+    "mongoose": "^7.5.0",
+    "nodemailer": "^6.9.5",
+    "pdf-lib": "^1.17.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0",
+    "sinon": "^17.0.1"
+  }
+}

@@ -1,0 +1,111 @@
+/* account.css */
+
+/* Styling for the main account section */
+.account {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to top, #69b1ff, #002c8c);
+  color: #fff;
+  font-family: "Arial", sans-serif;
+  text-align: center;
+}
+
+/* Styling for the account card containing user information */
+.account-card {
+  width: 1000px;
+  padding: 0 15px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for the Profile Tab */
+.profile-container {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.profile-info {
+  text-align: left;
+  margin-left: 20px;
+}
+
+user-name {
+  font-size: 24px;
+  margin: 0;
+}
+
+user-email {
+  font-size: 16px;
+  margin: 0;
+}
+
+profile-actions {
+  justify-content: left;
+  margin-top: 20px;
+}
+
+/* Styles for the Edit Profile Modal */
+.ant-modal-title {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* Styles for Buttons */
+.ant-btn-primary {
+  background-color: #69b1ff;
+  border-color: #69b1ff;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.ant-btn-primary:hover,
+.ant-btn-primary:focus {
+  background-color: #002c8c;
+  border-color: #002c8c;
+}
+
+/* Additional styles for various content within tabs */
+
+/* Styles for Certificates Tab */
+.certificate-list {
+  list-style: none;
+}
+
+.certificate-list li {
+  margin-bottom: 16px;
+}
+
+/* Styles for Certificate Management Tab (visible to admins) */
+.certificate-management-list {
+  list-style: none;
+}
+
+.certificate-management-list li {
+  margin-bottom: 16px;
+}
+
+/* Styles for User Management Tab (visible to admins) */
+.user-list {
+  list-style: none;
+}
+
+.user-list li {
+  margin-bottom: 16px;
+}
+
+/* Styles for Settings Tab */
+.settings-form {
+  text-align: left;
+}
+
+/* Styles for Security Settings and Notification Preferences */
+.ant-checkbox-wrapper {
+  margin-right: 8px;
+  margin-bottom: 8px;
+  text-align: left;
+}

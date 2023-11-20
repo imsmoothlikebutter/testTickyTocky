@@ -1,0 +1,98 @@
+/* Register.css */
+
+/* Container styles */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to top, #69b1ff, #002c8c);
+  color: #fff;
+  font-family: "Arial", sans-serif;
+  text-align: center;
+}
+
+/* Form styles */
+.register-form {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: left; /* Align the form content to the left */
+  text-align: left; /* Set text alignment to left */
+}
+
+.register-form h2 {
+  font-size: 28px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  background: linear-gradient(#69b1ff, #002c8c);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-align: center;
+}
+
+/* Form item styles */
+.form-item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: left; /* Align form items to the left */
+  margin-bottom: 15px;
+}
+
+/* Label styles (hidden, icons used) */
+label {
+  display: none; /* Hide labels */
+}
+
+.input-box {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+}
+
+/* Error message styles */
+.error-message {
+  color: #ff4d4f;
+}
+
+/* Button container styles */
+.form-button-container {
+  display: flex;
+  justify-content: center; /* Center the button horizontally */
+  margin-top: 20px;
+}
+
+.form-button-container button {
+  font-size: 16px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.form-button-container button:last-child {
+  margin-right: 0;
+}
+
+.form-button-container button[type="default"] {
+  background: #ccc;
+  color: #fff;
+}
+
+.form-button-container button[type="primary"] {
+  background: #1890ff;
+  color: #fff;
+}
+
+.form-button-container button[type="primary"]:hover {
+  background: #0040c8;
+}

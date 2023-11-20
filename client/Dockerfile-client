@@ -1,0 +1,21 @@
+# syntax=docker/dockerfile:1
+
+FROM node:18-alpine
+
+# Install necessary dependencies for Chrome
+RUN apk add --no-cache \
+    udev \
+    ttf-freefont \
+    chromium \
+    chromium-chromedriver
+
+# Set environment variables for Chrome
+ENV CHROME_BIN=/usr/bin/chromium-browser \
+    CHROME_PATH=/usr/lib/chromium/
+
+WORKDIR /app
+COPY . .
+RUN rm -rf node_modules && rm package-lock.json && yarn cache clean
+RUN npm install
+CMD ["npm", "start"]
+EXPOSE 3000
